@@ -6,7 +6,7 @@ import {
 import "react-vertical-timeline-component/style.min.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGraduationCap, faHeadset, faBook, faRocket } from "@fortawesome/free-solid-svg-icons";
-import "../styles/Experience.css";
+//import "../styles/Experience.css";
 
 function Experience() {
   return (
