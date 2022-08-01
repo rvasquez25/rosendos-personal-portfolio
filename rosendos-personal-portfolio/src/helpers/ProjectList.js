@@ -4,12 +4,18 @@ import Proj3 from "../assets/proj3.webp";
 import Proj4 from "../assets/proj4.webp";
 import Proj5 from "../assets/proj5.jpg";
 import Proj6 from "../assets/proj6.png";
+import react from "../assets/react.png";
 
 export const ProjectList = [
+  // {
+  //   name: "Dijkstra Algorithm Visualizer",
+  //   image: Proj1,
+  //   skills: "JavaScript,HTML,CSS",
+  // },
   {
-    name: "Dijkstra Algorithm Visualizer",
-    image: Proj1,
-    skills: "JavaScript,HTML,CSS",
+    name: "My Personal Portfolio Website",
+    image: react,
+    skills: "ReactJS",
   },
   {
     name: "Ecommerce Website",

@@ -5,6 +5,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    color: #3e497a;
   }
   .projects .projectTitle {
     text-align: center;
@@ -49,6 +50,14 @@
   
   .projectItem h1 {
     font-size: 25px;
+    background-color: #3e497a;
+    background-image: linear-gradient(to left,#21325e 0%, #2E4684 21%, #3B5AAA 52%, #5473C4 78%, #6480ca 100%);
+    background-size: 100%;
+    /* margin-bottom: 5rem; */
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
   }
   
   @media only screen and (max-width: 1300px) {
