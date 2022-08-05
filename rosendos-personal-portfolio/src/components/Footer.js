@@ -7,11 +7,12 @@ import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 function Footer() {
   return (
     <div className="footer">
+      <div className="line"></div>
       <div className="socialMedia">
-        <a href="https://github.com/rvasquez25/personal-projects" target="blank">
+        <a href="https://github.com/rvasquez25/personal-projects" target="_blank" rel="noreferrer">
             <FontAwesomeIcon icon={faGithub} />
         </a>
-        <a href="https://www.linkedin.com/in/rosendo-vasquez-ii-0b271519b" target="blank">
+        <a href="https://www.linkedin.com/in/rosendo-vasquez-ii-0b271519b" target="_blank" rel="noreferrer">
             <FontAwesomeIcon icon={faLinkedin} />
         </a>
         {/* <a href="rosendovasquez915@gmail.com">
