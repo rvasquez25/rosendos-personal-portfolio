@@ -1,3 +1,4 @@
+
 .projects {
     width: 100%;
     height: auto;
@@ -5,6 +6,14 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    color: #3e497a;
+    margin-top: 100px;
+    background-image: linear-gradient(to left,#21325e 0%, #2E4684 21%, #3B5AAA 52%, #2E4684 78%, #21325e 100%);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
   }
   .projects .projectTitle {
     text-align: center;
@@ -49,8 +58,16 @@
   
   .projectItem h1 {
     font-size: 25px;
+    color: #131313;
+    /* background-color: #3e497a;
+    background-image: linear-gradient(to left,#21325e 0%, #2E4684 21%, #3B5AAA 52%, #5473C4 78%, #6480ca 100%);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent; */
   }
-  
+
   @media only screen and (max-width: 1300px) {
     .projectList {
       grid-template-columns: 1fr 1fr;
