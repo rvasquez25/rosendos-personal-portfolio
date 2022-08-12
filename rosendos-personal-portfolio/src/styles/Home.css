@@ -86,6 +86,10 @@
   border-radius: 15px;
 }
 
+.homeImage img {
+  height: 450px;
+  width: 360px;
+}
 
 .skills {
   font-size: 35px;
@@ -311,7 +315,7 @@
   -webkit-text-fill-color: transparent;
   -moz-text-fill-color: transparent;
 }
-.certifications img{
+.certifications img {
   width: 520px;
   height: 400px;
   z-index: 998;
@@ -343,6 +347,14 @@ video {
     width: 75%;
     margin-top: 50px; 
     margin-bottom: -100px;
+  }
+
+  .certifications h1 {
+    margin-top: 300px;
+  }
+
+  .certifications img {
+    margin-bottom: 100px;
   }
 }
 
@@ -393,5 +405,75 @@ video {
 
   .skills {
     margin-top: 600px;
+  }
+
+  .certifications img {
+    width: 442px;
+    height: 340px;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .about {
+    text-align: center;
+  }
+  .about p {
+    text-align: center;
+    margin-left: 50px;
+  }
+  .text-1 {
+    margin-left: -30px;
+    font-size: 30px;
+  }
+
+  .text-1 span {
+    /* margin-left: -100px; */
+    font-size: 35px;
+  }
+  .name {
+    margin-left: -30px;
+    font-size: 35px;
+  }
+
+  .homeImage img {
+    margin-top: -200px;
+  }
+
+  .skills {
+    margin-top: 350px;
+  }
+
+  .skills h1 {
+    font-size: 35px;
+  }
+
+  .skills .skills-content .left .text {
+    font-size: 15px;
+  }
+  .skills .skills-content .left p {
+    font-size: 15px;
+  }
+
+  .skills .skills-content .right .text {
+    font-size: 15px;
+    margin-top: -50px;
+  }
+
+  .skills .skills-content .right span {
+    font-size: 15px;
+  }
+
+  .skills .skills-content .right {
+    margin-left: 45px;
+  }
+
+  .certifications h1 {
+    margin-top: 200px;
+    font-size: 35px;
+  }
+
+  .certifications img {
+    width: 364px;
+    height: 280px;
   }
 }

@@ -15,7 +15,7 @@
 .socialMedia svg {
   color: #131313;
   margin: 20px;
-  font-size: 70px;
+  font-size: 65px;
   cursor: pointer;
   margin-top: 50px;
 }
@@ -29,6 +29,7 @@
   width: 100%;
   z-index: 1000;
 }
+
 
 @media only screen and (max-width: 600px) {
   .footer svg {

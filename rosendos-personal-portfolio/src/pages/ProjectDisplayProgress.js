@@ -1,11 +1,11 @@
 import React from "react";
 import { useParams } from "react-router-dom";
-import { ProjectList } from "../helpers/ProjectList";
+import { ProjectInProgress } from "../helpers/ProjectInProgress";
 import "../styles/ProjectDisplay.css";
 
-function ProjectDisplay() {
+function ProjectDisplayProgress() {
   const { id } = useParams();
-  const project = ProjectList[id];
+  const project = ProjectInProgress[id];
   return (
     <div className="project">
       <h1>{project.name}</h1>
@@ -21,4 +21,4 @@ function ProjectDisplay() {
   );
 }
 
-export default ProjectDisplay;
+export default ProjectDisplayProgress;

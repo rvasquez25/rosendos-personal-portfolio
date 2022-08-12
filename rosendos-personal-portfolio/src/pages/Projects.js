@@ -1,8 +1,10 @@
 import React from "react";
 import ProjectItem from "../components/ProjectItem";
+import ProjectItemFuture from "../components/ProjectItemFuture"
 import { ProjectList } from "../helpers/ProjectList";
+import { ProjectInProgress } from "../helpers/ProjectInProgress";
 import "../styles/Project.css";
-// import video2 from "../assets/homeVideo5.mp4";
+// import video2 from "../assets/homeVideo4.mp4";
 
 
 function Projects() {
@@ -17,6 +19,12 @@ function Projects() {
           return <ProjectItem id={idx} name={project.name} image={project.image} />;
         })}
       </div>
+      {/* <h1>Projects in Progress</h1>
+      <div className="projectList">
+        {ProjectInProgress.map((project, idx) => {
+          return <ProjectItemFuture id={idx} name={project.name} image={project.image} />;
+        })}
+      </div> */}
     </div>
   );
 }
