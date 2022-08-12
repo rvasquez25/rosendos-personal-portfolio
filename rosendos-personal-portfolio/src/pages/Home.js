@@ -58,16 +58,14 @@ function Home() {
           <div className="column left">
             <div className="text">My Experience.</div>
             <p>
-              Python, C, and Java are my stronger languages because I began
-              learning these languages in 2019 (freshman year of college). I've
-              completed Intro to Computer Science, Elem. Data
-              Struct./Algorithms, and Data Structures in Java and Python and I
-              as well understand how to implement Data Structure level concepts
-              in C. I researched HTML, CSS, and JavaScript on my own time
-              freshman year but because of my internship, I've been able to
-              practice these languages continously learn and improve my skills.
-
-              
+              I've began taking an interest in Computer Science before I started college in the Summer of 2019.
+              The first language I began learning was Python by watching videos on basic coding and data structures from
+              a youtuber named Corey Schafer. At UTEP, I've completed my first three years which have taught me more
+              in-depth about C, Java, and Python through courses such as <span>Intro to Computer Science</span>, <span>Elem. Data
+              Struct./Algorithms</span>, <span>Data Structures</span>, <span>Computer Security</span>, <span>Software Vulnerabilties</span>
+              , and <span>Computer Architecture</span>. I currently work for <span>SPS ARS</span> as a Web Developer who assists in
+              front-end and back-end development which has also helped me greatly in understanding the Quasar Framework in HTML, CSS, Javascript 
+              and back-end wise increasing my Python and Javascript abilties and understanding basic database management.
             </p>
             <a
               href="https://youtu.be/dQw4w9WgXcQ"
@@ -78,7 +76,6 @@ function Home() {
             </a>
           </div>
           <div className="column right">
-            <div className="text">Languages</div>
             <div className="bars">
               <div className="info">
                 <span>HTML</span>
@@ -120,6 +117,20 @@ function Home() {
                 <span>Intermediate</span>
               </div>
               <div class="line java"></div>
+            </div>
+            <div className="bars">
+              <div className="info">
+                <span>NodeJS</span>
+                <span>Intermediate</span>
+              </div>
+              <div class="line node"></div>
+            </div>
+            <div className="bars">
+              <div className="info">
+                <span>ReactJS</span>
+                <span>Intermediate</span>
+              </div>
+              <div class="line react"></div>
             </div>
           </div>
         </div>

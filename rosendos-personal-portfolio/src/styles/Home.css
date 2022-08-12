@@ -162,6 +162,10 @@
   color: #131313;
 }
 
+.skills .skills-content .left p span{
+  font-style: italic;
+}
+
 .skills .skills-content .left a {
   display: inline-block;
   background: #131313;
@@ -240,6 +244,12 @@
 }
 .skills-content .right .java::before{
   width: 40%
+}
+.skills-content .right .node::before{
+  width: 36%
+}
+.skills-content .right .react::before{
+  width: 23%
 }
 
 .title-right {
