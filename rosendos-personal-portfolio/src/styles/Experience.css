@@ -77,6 +77,12 @@ u {
         -moz-text-fill-color: transparent;
     }
 }
+
+@media only screen and (max-width: 450px) {
+    .downloadCV {
+        margin-bottom: 20px;
+    }
+}
 /* 
 .vertical-timeline-element--education:hover {
     background-color: #131313;
