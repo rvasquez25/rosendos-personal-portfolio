@@ -4,7 +4,7 @@ handlers:
   - url: /(.*\..+)$
     static_files: build/\1
     upload: build/(.*\..+)$
-  # Catch all handler to index.html
+  # Catch all handler to home.js
   - url: /.*
     static_files: build/index.html
     upload: build/index.html

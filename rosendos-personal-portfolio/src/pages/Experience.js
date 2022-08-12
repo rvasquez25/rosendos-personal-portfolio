@@ -13,7 +13,7 @@ import {
   faBolt,
 } from "@fortawesome/free-solid-svg-icons";
 import "../styles/Experience.css";
-import resume from "../assets/Resume.pdf";
+import resume from "../assets/Resume1.pdf";
 import resumePic from "../assets/resume.png";
 
 function Experience() {
@@ -84,12 +84,11 @@ function Experience() {
             Web Developer at SPS ARS Aerial Remote Sensing
           </h3>
           <p>
-            <u>
-              <li>
-                Assist in front-end and back-end web development relating to
-                advanced unmanned aircraft and operations.
-              </li>
-            </u>
+          Currently assigned as Team Lead in efforts to get the company self-compliant through NIST MEP Cybersecurity Handbook
+          . Planning and attending weekly meetings to provide and receive work-related updates. Assigning tasks to the team in effor
+          ts to become self-compliant through NIST. Accomplished tasks assigned by a Senior Developer by using problem-solving skills t
+          o resolve issues or add web features.
+
           </p>
         </VerticalTimelineElement>
       </VerticalTimeline>
