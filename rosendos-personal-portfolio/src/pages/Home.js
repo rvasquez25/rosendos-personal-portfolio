@@ -23,7 +23,8 @@ function Home() {
             <div className="name">Rosendo Vasquez II</div>
             <div className="text-1">
               And I'm a{" "}
-              <span style={{ display: "inline-block" }}>
+              <span >
+              {/* <span style={{ display: "inline-block" }}> */}
                 <Typewriter
                   options={{
                     strings: ["Web Developer", "Ethical Hacker"],
@@ -43,8 +44,6 @@ function Home() {
             <div className="homeImage">
               <img
                 src={pic}
-                height={450}
-                width={360}
                 alt="Missing Imagery"
               ></img>
             </div>

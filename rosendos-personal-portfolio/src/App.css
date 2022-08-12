@@ -1,3 +1,8 @@
+*{
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
 .App {
   width: 100%;
   height: auto;
